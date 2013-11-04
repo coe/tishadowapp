@@ -40,9 +40,7 @@
     <property name="ti.android.bug2373.finishfalseroot" type="bool">true</property>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <manifest android:versionCode="6" android:versionName="1.5.0">
-            
             <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18"/>
-
             <!-- http://stackoverflow.com/questions/7523075/xml-android-permissions-list-full-->
             <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
             <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -183,5 +181,6 @@
         <module platform="commonjs" version="2.3.0">ti.cloud</module>
         <module platform="android">net.nend</module>
         <module platform="iphone">net.nend</module>
+        <module platform="iphone">ti.storekit</module>
     </modules>
 </ti:app>
