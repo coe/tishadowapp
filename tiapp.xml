@@ -183,5 +183,8 @@
         <module platform="iphone">net.nend</module>
         <module platform="android">jp.coe.util</module>
         <module platform="iphone">jp.coe.util</module>
+        <module platform="iphone">dk.napp.social</module>
+        <module platform="android">ti.admob</module>
+        <module platform="iphone">ti.admob</module>
     </modules>
 </ti:app>
